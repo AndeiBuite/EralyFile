@@ -1,8 +1,8 @@
 plugins {
-    kotlin("jvm") version "1.9.21"
+    kotlin("jvm")
 }
 
-group = "io.github.andeibuite"
+group = "io.github.andeibuite.eraly-file"
 version = "0.0.0"
 
 repositories {
