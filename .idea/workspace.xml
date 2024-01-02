@@ -4,8 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e562994c-0edc-4555-afa0-55f7168672c4" name="Changes" comment="Future Basic Structure Of Iterm Chain">
+    <list default="true" id="e562994c-0edc-4555-afa0-55f7168672c4" name="Changes" comment="Update 不会总结! 摆!">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/stream/Stream.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/stream/read/Readable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/stream/read/stream/ReadStream.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/stream/write/Writeable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/stream/write/stream/WriteStream.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/utils/Path.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/utils/System.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/test/kotlin/test/eraly/Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/test/kotlin/test/eraly/utils/SystemType.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/io/Readable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/io/Writeable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/ExistIterm.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/Iterm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/Iterm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/file/ExistFile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/file/ExistFile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/file/File.kt" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/file/File.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/file/VirtualFile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/file/VirtualFile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/folder/ExistFolder.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/folder/Folder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/folder/Folder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/folder/VirtualFolder.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/metadata/EralyBasicConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/metadata/EralyBasicConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/basic/iterm/Document.md" beforeDir="false" afterPath="$PROJECT_DIR$/documents/basic/iterm/Document.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +44,7 @@
       <list>
         <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -44,21 +67,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "zuluJDK 8 FX",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/andei_buite/Documents/Kotlin/eraly-file/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/folder",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.16108008",
-    "project.structure.side.proportion": "0.19222222"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Build eraly-file.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TestKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zuluJDK 8 FX&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/andei_buite/Documents/Kotlin/eraly-file/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/folder&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.16108008&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.19222222&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/basic/src/main/kotlin/io/github/andeibuite/eraly/basic/iterm/folder" />
@@ -70,8 +96,26 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="test.eraly.path" />
+      <recent name="test.eraly.type" />
+      <recent name="io.github.andeibuite.eraly.basic.io.read" />
+      <recent name="io.github.andeibuite.eraly.basic.io.write" />
       <recent name="io.github.andeibuite.eraly.basic.iterm" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.eraly.TestKt" />
+      <module name="eraly-file.basic.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.TestKt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -107,13 +151,33 @@
       <option name="project" value="LOCAL" />
       <updated>1704094367105</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update 不会总结! 摆!">
+      <option name="closed" value="true" />
+      <created>1704095200073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704095200073</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add Basic Files" />
     <MESSAGE value="Future Basic Structure Of Iterm Chain" />
-    <option name="LAST_COMMIT_MESSAGE" value="Future Basic Structure Of Iterm Chain" />
+    <MESSAGE value="Update 不会总结! 摆!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 不会总结! 摆!" />
   </component>
 </project>
