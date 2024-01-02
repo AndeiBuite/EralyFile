@@ -24,14 +24,21 @@ full:
 ```txt
 Any
 ├── Iterm
-│   ├── File
-│   │   ├── ExistFile(ExistIterm)
-│   │   └── VirtualFile
-│   └── Folder
-│       ├── ExistFolder(ExistIterm)
-│       └── VirtualFolder
-└── io
-    ├── Readable
-    └── Writeable
-    └── ExistIterm(Readable,Writeable)
+|   ├── !ExistIterm(!Readable,!Writeable)
+│   ├── File
+│   │   ├── ExistFile(!ExistIterm)
+│   │   └── VirtualFile
+│   └── Folder
+│       ├── ExistFolder(!ExistIterm)
+│       └── VirtualFolder
+└── stream
+    ├── !Streamable
+    ├── read
+    │   └── !Readable(!Streamable)
+    └── write
+        └── !Writeable(!Streamable)
+
+    
+* 「!」means interface
+* 「(...,...)」means interface implements
 ```
