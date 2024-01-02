@@ -2,7 +2,7 @@ package io.github.andeibuite.eraly.basic.utils
 
 import java.lang.System
 
-object System
+object SystemUtils
 {
 	// 当前系统类型
 	val currentType = run {
